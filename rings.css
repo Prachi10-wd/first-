@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+     background-color: rgb(33, 17, 17);
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(250, 188, 108);
+    text-shadow: 1px 1px rgb(225, 223, 223);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    
+}
+h2{
+    text-align: left;
+    font-weight: 600;
+   color: rgb(220, 181, 181);
+    margin-left: 40px;
+}
+h3{
+    color: rgb(220, 181, 181);
+}
+.pics .gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 40px;           /* space between items */
+}
+
+.pics figure {
+    text-align: center;
+    width: 225px;   /* matches your image size */
+}
+
+.pics figure img {
+    height: 225px;
+    width: 225px;
+    object-fit: cover;
+    border-radius: 10px;  /* looks nicer */
+}
+
+.pics2 .gallery2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 40px;           /* space between items */
+}
+
+.pics2 figure {
+    text-align: center;
+    width: 225px;   /* matches your image size */
+}
+
+.pics2 figure img {
+    height: 225px;
+    width: 225px;
+    object-fit: cover;
+    border-radius: 10px;  /* looks nicer */
+}
+.pics3 .gallery3 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 40px;           /* space between items */
+}
+
+.pics3 figure {
+    text-align: center;
+    width: 225px;   /* matches your image size */
+}
+
+.pics3 figure img {
+    height: 225px;
+    width: 225px;
+    object-fit: cover;
+    border-radius: 10px;  /* looks nicer */
+}
+
+
+#end{
+    text-align: right;
+    color: rgb(220, 181, 181);
+    font-size: medium;
+    font-weight: 600;
+    margin-right: 5px;
+}
