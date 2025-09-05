@@ -11,6 +11,7 @@ body {
 /* Header */
 header {
     display: flex;
+    flex-wrap: wrap;  /* allows wrapping on small screens */
     background-color: rgb(27, 1, 1);
     width: 100%;
     position: fixed;
@@ -186,4 +187,67 @@ footer{
 }
 #contact a:hover{
   text-decoration: underline;
+}
+@media (max-width:600px){
+  #heading h1{
+    font-size: 20px;
+  }
+  nav.container{
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  nav.container a{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .Container{
+    /* padding-top: 70px; */
+    width:250px;
+  }
+  #about{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  .extra-info{
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 6px;
+  }
+  .extra-info h1{
+    margin-bottom: 5px;
+  }
+  .extra-info p{
+    margin-bottom: 4px;
+    font-size: 10px;
+  }
+  .special-offer{
+    padding:5px;
+    border-radius: 5px;
+  }
+  .headingmain h1{
+    font-size: 20px;
+  }
+  .main1, .main2, .main3{
+    gap:30px;
+    margin-left: 60px;
+  }
+  .main1 img, .main2 img, .main3 img{
+     height: 150px;
+    width: 150px;
+    border-radius: 3px;
+    /* transition: transform 4s ease-in-out; */
+  }
+  footer{
+    margin-left: 20px;
+    margin-right: 20px;
+    h1,h2{
+      margin-left: 4px;
+    }
+  }
+  #contact{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 10px;
+  }
 }
